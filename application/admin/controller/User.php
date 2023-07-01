@@ -7,12 +7,12 @@ class User
 {
     public function get(){
         // 获取所有的配置
-        // dump(Config::get());
+        dump(Config::get());
         // 获取app的胚子
         // dump(Config::get('app.'));
         // 仅仅获取一级配置
         // dump(Config::pull('app'));
-        dump(Config::get('database.hostname'));
+        // dump(Config::get('database.hostname'));
     }
     
     public function set(){
